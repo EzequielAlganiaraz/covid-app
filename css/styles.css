@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+
+*{
+    
+    font-family: 'Padauk', sans-serif;
+}
+body{
+    background-color: #040f19;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body h1{
+    color: white;
+    font-size: 3em;
+    font-weight:bold;
+}
+
+body select{
+    font-size: 1.5em;
+    background-color: #00223f;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+body label{
+    font-size: 2em;
+    color: white;
+}
+
+header{
+    display: flex;
+  align-items: center;
+    justify-content: center;
+    background-color: #00223f;
+    margin-bottom: 5%;
+    height: 100px;
+}
+
+.card{
+    width: 20em;
+    /* height: 15em; */
+    padding: 1em;
+    background-color: #00223f;
+    border-radius: 20px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #201dff;
+
+}
+
+.card h3{
+    color: #fffb00;
+    font-size: 2.5em;
+}
+.card h2{
+    font-size: 2.3em;
+}
+
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
